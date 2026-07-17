@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60">
+  <defs>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C7A35B" />
+      <stop offset="50%" stop-color="#E8C878" />
+      <stop offset="100%" stop-color="#C7A35B" />
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Logo Mark miniaturisé à gauche -->
+  <g transform="translate(10, 8) scale(0.45)">
+    <path d="M 50 5 L 63 18 L 81 18 L 81 36 L 94 49 L 81 62 L 81 80 L 63 80 L 50 93 L 37 80 L 19 80 L 19 62 L 6 49 L 19 36 L 19 18 L 37 18 Z" 
+          fill="none" stroke="url(#goldGrad2)" stroke-width="3" opacity="0.5" />
+    <path d="M 38 28 H 52 C 60 28, 62 34, 52 38 H 38 V 28 Z M 38 38 H 48 C 55 38, 58 45, 60 62 M 38 28 V 65" 
+          fill="none" stroke="url(#goldGrad2)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Texte RAYAN -->
+  <text x="65" y="32" 
+        font-family="'Playfair Display', 'Didot', 'Georgia', serif" 
+        font-size="24" 
+        font-weight="bold" 
+        letter-spacing="4" 
+        fill="url(#goldGrad2)" 
+        filter="url(#softGlow)">RAYAN</text>
+
+  <!-- Sous-titre RESTAURANT & GELATO -->
+  <text x="65" y="47" 
+        font-family="'Inter', sans-serif" 
+        font-size="9" 
+        font-weight="600" 
+        letter-spacing="2" 
+        fill="#B7B2A8">RESTAURANT &amp; GELATO</text>
+
+  <!-- Indication géographique élégante -->
+  <text x="260" y="47" 
+        font-family="'Inter', sans-serif" 
+        font-size="8" 
+        font-weight="500" 
+        letter-spacing="1" 
+        fill="#713B2B">DEROUA</text>
+</svg>

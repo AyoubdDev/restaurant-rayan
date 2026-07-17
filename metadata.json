@@ -1,0 +1,6 @@
+{
+  "name": "Restaurant Rayan",
+  "description": "Site web officiel et premium du Restaurant Rayan à Deroua. Grillades, Poissons, Sushi, Gelato et événements familiaux.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
